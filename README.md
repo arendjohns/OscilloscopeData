@@ -1,2 +1,1 @@
-# OscilloscopeData
-Reads, stores, and plots data from an oscilloscope. 
+The code reads, stores, and plots data from a DSO5014A oscilloscope in Python. The pyvisa package allows a computer to communicate to a DSO5014A oscilloscope through USB. The oscilloscope comes with a manual containing program commands. The code converts the data available in ASCII to an integer matrix that may be plotted. Print commands are included for troubleshooting purposes. Coded in 2019.
